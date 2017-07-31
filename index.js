@@ -5,7 +5,6 @@ var extend = require('xtend'),
 	PromiseRetryer = require('promise-retryer')(BlueBird),
 	PromiseObject = require('promise-object')(BlueBird),
 	debug = require('debug')('http'),
-	colors = require('colors'),
 	Joi = require('joi');
 
 BlueBird.promisifyAll(Joi);
